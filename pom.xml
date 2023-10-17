@@ -13,7 +13,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <maven-compiler-plugin>3.8.1</maven-compiler-plugin>
         <maven-surefire-plugin-version>2.22.1</maven-surefire-plugin-version>
-        <aspectj.version>1.9.4</aspectj.version>
+        <aspectj.version>1.9.20.1</aspectj.version>
         <allure-maven-version>2.10.0</allure-maven-version>
         <allure-testng-version>2.17.2</allure-testng-version>
         <allure-selenide-version>2.17.2</allure-selenide-version>
@@ -37,8 +37,8 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>
-<!--                        <suiteXmlFile>${basedir}/src/test/java/AmazonTests/suiteForJenkins.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>-->
+                        <suiteXmlFile>${basedir}/src/test/java/AmazonTests/suiteForJenkins.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemProperties>
                         <property>
