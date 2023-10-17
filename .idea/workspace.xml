@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb3ab00-3f11-49c0-beda-ad15e06212e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="acb3ab00-3f11-49c0-beda-ad15e06212e4" name="Changes" comment="My first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AmazonPages/AfterLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AmazonPages/AfterLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AmazonPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AmazonPages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AmazonPages/PasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AmazonPages/PasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AmazonPages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AmazonPages/SignInPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +31,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.InvalidEmailLoginTest">
+    <configuration name="InvalidEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazonCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AmazonTests" />
+      <option name="MAIN_CLASS_NAME" value="AmazonTests.InvalidEmailLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/serhii/IdeaProjects/AmazonProject/src/test/java/AmazonTests/suiteForJenkins.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazonCase" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/AmazonTests/suiteForJenkins.xml" />
@@ -47,6 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InvalidEmailLoginTest" />
         <item itemvalue="TestNG./Users/serhii/IdeaProjects/AmazonProject/src/test/java/AmazonTests/suiteForJenkins.xml" />
       </list>
     </recent_temporary>
@@ -60,6 +79,19 @@
       <option name="presentableId" value="Default" />
       <updated>1697559915792</updated>
     </task>
+    <task id="LOCAL-00001" summary="My first commit">
+      <option name="closed" value="true" />
+      <created>1697565448548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697565448548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
   </component>
 </project>
