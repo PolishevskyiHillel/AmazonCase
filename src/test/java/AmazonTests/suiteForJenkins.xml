@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suiteForJenkins" verbose="10" parallel="methods" thread-count="4">
+
+    <listeners>
+        <listener class-name="Base.BaseListener"/>
+    </listeners>
+
+    <test name="success">
+        <classes>
+            <class name="AmazonTests.SuccessLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="fail">
+        <classes>
+            <class name="AmazonTests.InvalidEmailLoginTest"/>
+            <class name="AmazonTests.InvalidPasswordLoginTest"/>
+        </classes>
+    </test>
+
+</suite>
