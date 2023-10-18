@@ -12,6 +12,11 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <maven-compiler-plugin>3.8.1</maven-compiler-plugin>
+        <testng>7.7.0</testng>
+        <selenium-java>4.11.0</selenium-java>
+        <selenide>6.19.0</selenide>
+        <webdrivermanager>5.4.1</webdrivermanager>
+        <rest-assured>5.3.0</rest-assured>
         <maven-surefire-plugin-version>2.22.1</maven-surefire-plugin-version>
         <aspectj.version>1.9.20.1</aspectj.version>
         <allure-maven-version>2.10.0</allure-maven-version>
@@ -37,7 +42,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-<!--                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>-->
+                        <!--                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>-->
                         <suiteXmlFile>${basedir}/src/test/java/AmazonTests/suiteForJenkins.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemProperties>
@@ -71,49 +76,31 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.7.0</version>
+            <version>${testng}</version>
         </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.11.0</version>
+            <version>${selenium-java}</version>
         </dependency>
 
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.4.1</version>
+            <version>${webdrivermanager}</version>
         </dependency>
 
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>6.19.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.13.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.13.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>ru.yandex.qatools.ashot</groupId>
-            <artifactId>ashot</artifactId>
-            <version>1.5.4</version>
+            <version>${selenide}</version>
         </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>5.3.0</version>
+            <version>${rest-assured}</version>
             <scope>test</scope>
         </dependency>
 
