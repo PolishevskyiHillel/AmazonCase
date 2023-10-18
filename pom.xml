@@ -39,11 +39,11 @@
                 <version>${maven-surefire-plugin-version}</version>
                 <configuration>
                     <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj-version}/aspectjweaver-${aspectj-version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <!--                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>-->
-                        <suiteXmlFile>${basedir}/src/test/java/AmazonTests/suiteForJenkins.xml</suiteXmlFile>
+                        <suiteXmlFile>${basedir}${TEST_SUITE}.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>${basedir}/src/test/java/AmazonTests/suiteForJenkins.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <systemProperties>
                         <property>
